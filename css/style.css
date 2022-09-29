@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root{
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: right 55vw bottom 5vh, left 45vw top 49vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: var(--Darkcyan);
+    width: 1440px;
+    min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+.card{
+    width: 375px;
+    background: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: center;
+
+}
+.img_card{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.victor{
+    border-radius: 50%;
+    border: 4.5px solid white;
+    position: relative;
+    top: -55px;
+}
+
+.person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#age{
+    color: var(--Darkgray);
+    font-weight: 400;
+}
+#crest{
+    color: var(--Verydarkdesaturatedblue);
+    font-weight: 700;
+}
+
+.line{
+    background: var(--Darkgray);
+    width: 375px;
+    height: 1px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    margin: 25px 0;
+}
+p{
+    color: var(--Darkgray);
+    font-weight: 400;
+}
+h1{
+    color: var(--Verydarkdesaturatedblue);
+    font-weight: 700;
+}
+
+
+
