@@ -15,9 +15,6 @@
 }
 
 main{
-    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-    background-position: right 55vw bottom 5vh, left 45vw top 49vh;
-    background-repeat: no-repeat, no-repeat;
     background-color: var(--Darkcyan);
     width: 1440px;
     min-height: 100vh;
