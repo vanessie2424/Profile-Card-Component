@@ -16,12 +16,14 @@
 
 main{
     background-color: var(--Darkcyan);
-    width: 1440px;
+    max-inline-size: 1440px;
     min-height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 
 
