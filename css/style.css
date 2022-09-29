@@ -23,7 +23,6 @@ main{
    align-items: center;
    flex-direction: column;
    background-size: cover;
-   background-repeat: no-repeat;
 }
 
 
@@ -91,16 +90,8 @@ h1{
 
 
 
-@media screen and (max-width:400px) {
-    main{
-        max-width: 300px ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+
     
-}
 
 
 
