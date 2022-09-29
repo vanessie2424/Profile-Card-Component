@@ -15,7 +15,7 @@
 }
 
 main{
-    background-color: var(--Darkcyan);
+    background: var(--Darkcyan);
     max-inline-size: 1440px;
     min-height: 100vh;
    display: flex;
@@ -27,7 +27,7 @@ main{
 
 
 .card{
-    width: 375px;
+    width: 320px;
     background: white;
     border-radius: 10px;
     margin: 20px 0;
@@ -90,7 +90,16 @@ h1{
 
 
 
+@media screen and (max-width: 400px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
+    }
+    
+}
     
 
 
